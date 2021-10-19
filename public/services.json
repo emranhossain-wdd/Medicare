@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Pediatricians",
+        "description": "A pediatrician is a medical doctor who manages the physical, and mental care for children from birth until age 18.",
+        "img": "https://assets.website-files.com/5e31fbcb275ce1b6bb167cb4/5e33a8a0806f6d8fab02c33e_pediatricians-icon.svg",
+        "department": "Pediatrician"
+    },
+    {
+        "id": 2,
+        "name": "Plastic Surgeons",
+        "description": "A specialist plastic surgeon is a doctor who specialist in invasive cosmetic and reconstructive surgery.",
+        "img": "https://assets.website-files.com/5e31fbcb275ce1b6bb167cb4/5e33a8592e40db66bdca8bbd_plastic-surgeons-icon.svg",
+        "department": "Surgeon"
+    },
+    {
+        "id": 3,
+        "name": "Ophthalmologists",
+        "description": "An ophthalmologist diagnoses and treats all eye diseases, performs eye surgery and prescribes.",
+        "img": "https://assets.website-files.com/5e31fbcb275ce1b6bb167cb4/5e33a845cf951fb30f205313_ophthalmologists-icon.svg",
+        "department": "Ophthalmologist"
+    },
+    {
+        "id": 4,
+        "name": "Orthopedic",
+        "description": "Who specialize in the musculoskeletal system - the bones, joints that are so essential to movement and everyday life.",
+        "img": "https://assets.website-files.com/5e31fbcb275ce1b6bb167cb4/5e339f172e40db0c89ca49e7_orthopaedic-icon.svg",
+        "department": "Orthodontist"
+    },
+    {
+        "id": 5,
+        "name": "Gastroenterologist",
+        "description": "Gastroenterologists are doctors who are trained to diagnose and treat problems in your gastrointestinal (GI) tract and liver.",
+        "img": "https://assets.website-files.com/5e31fbcb275ce1b6bb167cb4/5e339e852524a253a922338e_gastroenterologist-icon.svg",
+        "department": "Gastroenterologist"
+    },
+    {
+        "id": 6,
+        "name": "Cardiology",
+        "description": "A cardiologist is a doctor who specializes in treating diseases of the cardiovascular system — mainly the heart and blood vessels.",
+        "img": "https://assets.website-files.com/5e31fbcb275ce1b6bb167cb4/5e339e07806f6d57a30269f2_cardiology-icon.svg",
+        "department": "Cardiologist"
+    }
+]

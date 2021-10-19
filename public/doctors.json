@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Erik Goodman",
+        "description": "A pediatrician is a medical doctor who manages the physical, and mental care for children from birth until age 18.",
+        "img": "https://assets.website-files.com/5e31fbcb275ce1b6bb167cb4/5e630aa97f3b4317cde3c681_erick-goodman-doctor-p-500.jpeg",
+        "department": "PEDIATRICIAN"
+    },
+    {
+        "id": 2,
+        "name": "Cathy Spencer",
+        "description": "A specialist plastic surgeon is a doctor who specialist in invasive cosmetic and reconstructive surgery.",
+        "img": "https://assets.website-files.com/5e31fbcb275ce1b6bb167cb4/5e630ab151beef0feabf2157_cathy-spencer-doctor-p-500.jpeg",
+        "department": "CARDIOLOGIST"
+    },
+    {
+        "id": 3,
+        "name": "Derek Evans",
+        "description": "An ophthalmologist diagnoses and treats all eye diseases, performs eye surgery and prescribes.",
+        "img": "https://assets.website-files.com/5e31fbcb275ce1b6bb167cb4/5e630ab86f973431f9880935_derek-evans-doctor-p-500.jpeg",
+        "department": "GASTROENTEROLOGIST"
+    }
+]
