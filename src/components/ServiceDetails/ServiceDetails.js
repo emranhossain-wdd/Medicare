@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import PrivateDetailsShared from '../PrivateDetailsShared/PrivateDetailsShared';
 
 const ServiceDetails = () => {
     const { id } = useParams();
@@ -26,6 +27,7 @@ const ServiceDetails = () => {
                 <p className="w-5/6 md:w-5/12 mx-auto text-gray-200 text-lg tracking-widest font-semibold">{singleService?.description}</p>
                 <button className="bg-white text-blue-600 text-2xl px-6 py-4 font-bold rounded-lg">Contact Us</button>
             </div>
+            <PrivateDetailsShared name={singleService?.name} />
         </div>
     );
 };

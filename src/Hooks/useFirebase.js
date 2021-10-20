@@ -17,10 +17,7 @@ const useFirebase = () => {
         const googleProvider = new GoogleAuthProvider();
         setIsLoading(true);
 
-        signInWithPopup(auth, googleProvider)
-            .then(result => {
-                setUser(result.user)
-            })
+        return signInWithPopup(auth, googleProvider)
             .catch(error => {
                 setError(error.massage)
             })
@@ -36,6 +33,7 @@ const useFirebase = () => {
             .finally(() => setIsLoading(false));
     }
 
+    // it keeps all user changes sync
     useEffect(() => {
         const unsubscribed = onAuthStateChanged(auth, user => {
             if (user) {
@@ -57,6 +55,7 @@ const useFirebase = () => {
         setPassword(e.target.value);
     }
 
+    // email and password registration handle
     const handleRegistration = e => {
         e.preventDefault();
         if (password.length < 6) {
@@ -73,6 +72,7 @@ const useFirebase = () => {
             })
     }
 
+    // email and password sign in handle
     const handleSignIn = e => {
         e.preventDefault();
 

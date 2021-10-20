@@ -5,6 +5,7 @@ import Service from '../Service/Service';
 import ShortSummary from '../ShortSummary/ShortSummary';
 
 const Home = () => {
+    // data load for services to showing home ui
     const [services, setServices] = useState([]);
 
     useEffect(() => {
